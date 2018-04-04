@@ -1,0 +1,21 @@
+body {
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex-container{
+    margin-top: 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.result{
+   background-color: white;
+}
+
+.inputs{
+    padding: 10px;  
+}
