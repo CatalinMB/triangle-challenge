@@ -1,8 +1,29 @@
-<!DOCTYPE html>
-<html>
-<body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Triangle Challenge</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-<h1>Triangle detector</h1>
+<body>
+<div class="flex-container">
+<div class="result">
+    <p id="result-text"></p>
+</div>
+
+<div class="inputs">
+    <form action="#">
+        <input type="text" id="side1" placeholder="First side">
+        <input type="text" id="side2" placeholder="Second side">
+        <input type="text" id="side3" placeholder="Third side">
+
+    </form>
+    <button onclick="triangleGenerator()">Check!</button>
+</div>
+</div>
 
 </body>
+<script type="text/javascript" src="script.js"></script>
 </html>
