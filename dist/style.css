@@ -1,10 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(./misc/background.png) no-repeat center center fixed;
+    background: url(./misc/background.jpg) no-repeat center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: sans-serif;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
 }
 
 .form {
@@ -28,7 +28,7 @@ body {
 
 .result{
     width: 100%;
-    background-color: rgba(64, 161, 203);
+    background-color: rgb(68,138,255);
     display: flex;
     justify-content: center;
     color: white;
@@ -40,6 +40,7 @@ body {
     display: block;
     margin: 0 auto;
     padding: 20px 0;
+    font-size: 18px;
 }
 
 .inputs{
@@ -52,29 +53,3 @@ body {
     outline: 0;
 	padding: 22px 18px;
 }
-
-.inputs .check{
-    border: none;
-    outline: none;
-    width: 100px;
-    height: 30px;
-    margin-top: 15px;
-    margin-bottom: -5px;
-    background-color: rgba(64, 161, 203);
-    color: white;
-    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.3);
-}
-
-
-.hello{
-    border: 0;
-    border-bottom: 1px solid gray;
-    outline: 0;
-}
-
-.input-label{
-    /* display: block; */
-    width: 100%;
-    color: #d3d3d3;
-    transition: 0.2s all;
-  }
