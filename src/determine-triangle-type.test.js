@@ -38,13 +38,13 @@ describe('determineTriangleType', function () {
     })
 
     it('should throw if the second parameter is equal to zero', function () {
-
+        // arrange
         var testFunction = function () {
             determineTriangleType(1, 0)
         }
-
+        // act
+        // assert
         assert.throws(testFunction, 'b should not be a positive number');
-
     })
 
     it('should throw if the second parameter is lower than zero', function () {
@@ -58,11 +58,12 @@ describe('determineTriangleType', function () {
     })
 
     it('should throw if the third parameter is equal to zero', function () {
-
+        // arrange
         var testFunction = function () {
             determineTriangleType(1, 1, 0)
         }
-
+        // act
+        // assert
         assert.throws(testFunction, 'c should not be a positive number');
 
     })
@@ -96,7 +97,7 @@ describe('determineTriangleType', function () {
         // assert
         assert.throws(testFunction, 'c should be a positive number');
     })
-    
+
     it('should parseFloat the parameters', function () {
         // act
         var result = determineTriangleType("2", "2", "2")
